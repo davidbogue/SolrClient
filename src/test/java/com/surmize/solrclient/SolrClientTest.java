@@ -32,5 +32,10 @@ public class SolrClientTest {
         assertTrue(docsFound.size() == 0);
     }
 
+    @Test
+    public void testDelete() throws Exception{
+        SolrClient client = new SolrClient();
+        client.deleteByQuery("*:*");
+    }
     
 }
