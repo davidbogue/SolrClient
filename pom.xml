@@ -51,7 +51,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.surmize.solrclient.CommandLine</mainClass>
+                            <mainClass>com.surmize.solrclient.SolrClientCLI</mainClass>
                             <classpathPrefix>lib/</classpathPrefix>
                         </manifest>
                     </archive>
